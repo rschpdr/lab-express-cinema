@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-xs-12 col-md-3">
+    <img alt="{{this.title}} cover" src="{{this.image}}" />
+  </div>
+  <div class="col-xs-12 col-md-9">
+    <a href="/movies">Go back</a>
+    <h2>{{this.title}}</h2>
+    <h3>{{this.director}}</h3>
+
+    <ul>
+      {{#each stars}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+
+    <p>{{this.description}}</p>
+
+    {{#each showtimes}}
+    {{this}} |
+    {{/each}}
+  </div>
+</div>

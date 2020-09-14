@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.bg-image {
+  background-image: url("../images/cinema.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  font-size: 5rem;
+  width: 300px;
+}
