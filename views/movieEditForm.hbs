@@ -1,0 +1,24 @@
+<form action="/edit-movie/{{_id}}" method="POST" class="d-flex flex-column w-50 p-5">
+  <label>Title</label>
+  <input type="text" name="title" value="{{title}}" />
+
+  <label>Director</label>
+  <input type="text" name="director" value="{{director}}" />
+
+  <label>Stars</label>
+  <textarea name="stars" rows="3" placeholder="Type in the name of the movie stars separated by commas">{{stars}}
+  </textarea>
+
+  <label>Image</label>
+  <input type="text" name="image" value="{{image}}" />
+
+  <label>Description</label>
+  <textarea rows="3" name="description">{{description}}
+  </textarea>
+
+  <label>Showtimes</label>
+  <textarea name="showtimes" rows="3" placeholder="Type in the showtimes separated by commas">{{showtimes}}
+  </textarea>
+
+  <button type="submit">Send</button>
+</form>

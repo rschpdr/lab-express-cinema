@@ -7,6 +7,8 @@
         <img alt="{{this.title}} cover" src="{{this.image}}" />
         <figcaption class="font-weight-bold">{{this.title}}</figcaption>
         <a href="/movie/{{this._id}}">See more</a>
+        <a href="/edit-movie/{{this._id}}">Edit</a>
+        <a href="/delete-movie/{{this._id}}" class="text-danger">Delete</a>
       </picture>
     </div>
     {{/each}}
