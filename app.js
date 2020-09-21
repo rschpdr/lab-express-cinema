@@ -40,4 +40,6 @@ app.use("/", index);
 
 console.log("Hello world!");
 
+console.log("Demo 2");
+
 module.exports = app;
