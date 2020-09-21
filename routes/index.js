@@ -3,7 +3,7 @@ const router = express.Router();
 const Movie = require("../models/Movie.model");
 
 /* GET home page */
-router.get("/index", (req, res, next) => res.render("index"));
+router.get("/home", (req, res, next) => res.render("index"));
 
 // GET Movie List
 router.get("/movies", async (req, res) => {
